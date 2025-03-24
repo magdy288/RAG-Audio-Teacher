@@ -5,3 +5,4 @@ langchain_core==0.3.48
 langchain_ollama==0.3.0
 pyttsx3==2.98
 streamlit==1.43.2
+espeakng==1.0.3
