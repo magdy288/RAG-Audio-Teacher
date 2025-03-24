@@ -7,10 +7,10 @@ from langchain_core.prompts import ChatPromptTemplate
 from src.document_loader import load_document
 import streamlit as st
 
-import pyttsx3
+# import pyttsx3
 from gtts import gTTS
 
-engine = pyttsx3.init()
+# engine = pyttsx3.init()
 
 
 # Create a Streamlit app
