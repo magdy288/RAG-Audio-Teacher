@@ -23,7 +23,7 @@ uploaded_file = st.file_uploader("Upload a PDF file", type="pdf")
 if uploaded_file :
 
     # Code to work around document loader from Streamlit and make it readable by langchain
-    temp_file = "./temp.pdf"
+    temp_file = "temp.pdf"
     with open(temp_file, "wb") as file:
         file.write(uploaded_file.getvalue())
         file_name = uploaded_file.name
